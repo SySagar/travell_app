@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    style="@style/TravelCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="20dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/layout_id">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/itemImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/jaisalmer"
+        app:shapeAppearance="@style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Year" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:textColor="@color/white"
+        android:text="Jaisalmer"
+        android:layout_marginBottom="20dp"
+        android:textSize="40sp"
+        android:paddingHorizontal="30dp"
+        android:textStyle="bold" />
+
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/saved"
+        android:layout_gravity="top|right"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="20dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/savecard"
+        app:shapeAppearance="@style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Year" />
+
+
+</androidx.cardview.widget.CardView>

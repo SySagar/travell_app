@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="LoginPage" type="id" />
+    <item name="button" type="id" />
+    <item name="InputEmailText" type="id" />
+    <item name="InputPasswordText" type="id" />
+    <item name="textView" type="id" />
+    <item name="imageView" type="id" />
+    <item name="textView2" type="id" />
+    <item name="Google" type="id" />
+    <item name="Facebook" type="id" />
+</resources>
